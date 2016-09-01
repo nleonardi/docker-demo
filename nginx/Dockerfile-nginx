@@ -1,0 +1,5 @@
+FROM nginx
+
+MAINTAINER hello@world.org
+
+COPY nginx.conf /etc/nginx/nginx.conf
